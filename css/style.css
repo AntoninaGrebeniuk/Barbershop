@@ -1,0 +1,376 @@
+:root {
+  --primary-color: #303030;
+  --secondery-color: #ffffff;
+  --accent-color: #ff6c00;
+  --text-color: #9da4bd;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* img {
+  display: block;
+  width: 100%;
+  height: auto;
+} */
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.btn {
+  width: 160px;
+  height: 40px;
+
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 1.08px;
+  text-transform: uppercase;
+
+  color: var(--secondery-color);
+  background-color: transparent;
+
+  border-radius: 25px;
+  border: 1px solid var(--accent-color);
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--accent-color);
+}
+
+.sub-title {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+
+.title {
+  font-size: 42px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.18;
+  letter-spacing: 2.1px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* ------------- HEADER ---------------- */
+.header {
+  background-color: #9b9b9b;
+}
+
+.header__nav-link {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 1.2px;
+  color: var(--secondery-color);
+}
+
+.header__nav-link:hover,
+.header__nav-link:focus {
+  color: var(--accent-color);
+}
+
+.header__tel {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 1.2px;
+  color: var(--secondery-color);
+}
+
+.header__tel:hover {
+  color: var(--accent-color);
+}
+
+/* ------------- HERO ---------------- */
+.hero {
+  background-color: #c9c9c9;
+}
+
+.hero__soc-link {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.36;
+  letter-spacing: 2.2px;
+  color: var(--primary-color);
+}
+
+.hero__soc-link:hover,
+.hero__soc-link:focus {
+  color: var(--accent-color);
+}
+
+.hero__sub-title {
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.hero__title {
+  font-size: 72px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.18;
+  letter-spacing: 3.6px;
+  color: var(--secondery-color);
+}
+
+.hero__text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.36px;
+  color: #9da4bd;
+}
+
+/* ------------- ABOUT ---------------- */
+.about {
+}
+
+.about__list {
+}
+
+.about__item {
+}
+
+.about__sub-title {
+  color: var(--primary-color);
+}
+
+.about__title {
+  color: var(--primary-color);
+}
+
+.about__pre-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.36px;
+  color: #555;
+}
+
+.about__text {
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.28px;
+  color: #555;
+}
+
+.about__btn {
+  color: var(--primary-color);
+}
+
+/* ------------- PRICES ---------------- */
+.prices {
+  background-color: #c9c9c9;
+}
+
+.prices__sub-title {
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.prices__title {
+  color: var(--secondery-color);
+}
+
+.prices__list {
+}
+
+.prices__item {
+}
+
+.prices__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.66;
+  letter-spacing: 0.36px;
+  color: #9da4bd;
+}
+
+.prices__btn {
+  color: var(--secondery-color);
+}
+
+/* ------------- BENEFITS ---------------- */
+.benefits {
+}
+
+.benefits__list {
+}
+
+.benefits__item > span {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.36;
+  letter-spacing: 2.1px;
+  color: var(--primary-color);
+}
+
+.benefits__item > sup {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.38;
+  color: var(--accent-color);
+}
+
+.benefits__text {
+}
+
+.benefits__sub-title {
+  color: var(--primary-color);
+}
+
+.benefits__title {
+  color: var(--primary-color);
+}
+
+.benefits__after-title {
+  color: #555;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.67;
+  letter-spacing: 0.36px;
+}
+
+/* ------------- BARBERS ---------------- */
+.barbers__sub-title {
+  color: var(--primary-color);
+}
+
+.barbers__title {
+  color: var(--primary-color);
+}
+
+.barbers__list {
+}
+
+.barbers__item {
+}
+
+.barbers__name {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.39;
+  letter-spacing: 0.36px;
+  color: var(--primary-color);
+}
+
+.barbers__info {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.36;
+  letter-spacing: 0.28px;
+  color: var(--accent-color);
+}
+
+/* ------------- PORTFOLIO ---------------- */
+.portfolio {
+}
+
+.portfolio__sub-title {
+  color: var(--primary-color);
+}
+
+.portfolio__list {
+}
+
+.portfolio__item {
+}
+
+/* ------------- FORM ---------------- */
+.form {
+  background-color: #c9c9c9;
+}
+
+.form__title {
+  color: var(--secondery-color);
+}
+
+/* ------------- CONTACTS ---------------- */
+.contacts {
+  background-color: #c9c9c9;
+}
+
+.contacts__title {
+  color: var(--secondery-color);
+}
+
+.contacts__list {
+}
+
+.contacts__item {
+}
+
+.contacts__address-link {
+  font-weight: 700;
+}
+
+.contacts__link {
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 0.36px;
+  color: var(--text-color);
+}
+
+.contacts__sub-title {
+  color: var(--secondery-color);
+}
+
+.contacts__text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.36px;
+  color: var(--text-color);
+}
+
+/* ------------- FOOTER ---------------- */
+.footer {
+}
+
+.footer__copy {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.36;
+  letter-spacing: 2.2px;
+  color: #9da4bd;
+}
+
+.footer__list {
+}
+
+.footer__item {
+}
+
+.footer__soc-link {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.36;
+  letter-spacing: 2.2px;
+  color: var(--primary-color);
+}
+
+.footer__soc-link:hover,
+.footer__soc-link:focus {
+  color: var(--accent-color);
+}
